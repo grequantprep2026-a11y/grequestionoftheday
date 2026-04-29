@@ -1,0 +1,37 @@
+<svg width="380" height="300" viewBox="0 0 380 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       B = top-left      (85,  25)
+       A = bottom-left   (85,  245)
+       C = bottom-right  (320, 245)
+  -->
+
+  <!-- BA vertical left side -->
+  <line x1="85"  y1="25"  x2="85"  y2="245" stroke="black" stroke-width="1.4"/>
+
+  <!-- AC horizontal bottom -->
+  <line x1="85"  y1="245" x2="320" y2="245" stroke="black" stroke-width="1.4"/>
+
+  <!-- BC hypotenuse -->
+  <line x1="85"  y1="25"  x2="320" y2="245" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box at A -->
+  <polyline points="85,231 99,231 99,245"
+            fill="none" stroke="black" stroke-width="1.3"/>
+
+  <!-- Side labels -->
+  <!-- x-1 on left vertical BA -->
+  <text x="42" y="138" font-family="sans-serif" font-size="14" fill="black">x &#8722; 1</text>
+
+  <!-- x+2 on bottom AC -->
+  <text x="182" y="268" font-family="sans-serif" font-size="14" fill="black">x + 2</text>
+
+  <!-- x+5 on hypotenuse BC -->
+  <text x="210" y="118" font-family="sans-serif" font-size="14" fill="black">x + 5</text>
+
+  <!-- Vertex labels -->
+  <text x="78"  y="18"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="62"  y="262" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="325" y="260" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="100%" viewBox="0 0 680 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- X axis -->
+  <line x1="80" y1="245" x2="580" y2="245"
+        stroke="black" stroke-width="1.4"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text font-size="16" font-family="sans-serif" x="588" y="250">x</text>
+
+  <!-- Y axis -->
+  <line x1="300" y1="450" x2="300" y2="30"
+        stroke="black" stroke-width="1.4"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text font-size="16" font-family="sans-serif" x="296" y="22" text-anchor="middle">y</text>
+
+  <!-- line l: lower-left to upper-right ~45-50° -->
+  <line x1="172" y1="402" x2="462" y2="108"
+        stroke="black" stroke-width="1.4"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text font-size="13" font-family="sans-serif" x="468" y="104">line l</text>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Circle: center O=(220,240), radius=150 -->
+  <circle cx="220" cy="240" r="150" fill="none" stroke="black" stroke-width="1.8"/>
+
+  <!-- Rectangle: A=(220,90) B=(530,90) C=(530,240) D=(370,240) -->
+  <rect x="220" y="90" width="310" height="150" fill="none" stroke="black" stroke-width="1.8"/>
+
+  <!-- Right angle at A -->
+  <polyline points="220,105 235,105 235,90" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Right angle at B -->
+  <polyline points="530,105 515,105 515,90" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Right angle at C -->
+  <polyline points="530,225 515,225 515,240" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Right angle at D -->
+  <!-- Right angle at O -->
+  <polyline points="220,225 235,225 235,240" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- OA vertical line -->
+  <line x1="220" y1="90" x2="220" y2="240" stroke="black" stroke-width="1.8"/>
+  <!-- OD horizontal line -->
+  <line x1="220" y1="240" x2="370" y2="240" stroke="black" stroke-width="1.8"/>
+
+  <!-- Dots -->
+  <circle cx="220" cy="240" r="4" fill="black"/>
+  <circle cx="370" cy="240" r="4" fill="black"/>
+
+  <!-- Labels -->
+  <text x="212" y="82" font-size="14" font-style="italic">A</text>
+  <text x="534" y="82" font-size="14" font-style="italic">B</text>
+  <text x="534" y="252" font-size="14" font-style="italic">C</text>
+  <text x="368" y="262" font-size="14" font-style="italic">D</text>
+  <text x="200" y="262" font-size="14" font-style="italic">O</text>
+
+</svg>

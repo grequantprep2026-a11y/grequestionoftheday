@@ -1,0 +1,25 @@
+<svg width="100%" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- X axis -->
+  <line x1="80" y1="240" x2="580" y2="240"
+        stroke="black" stroke-width="1.4"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text font-size="16" font-family="sans-serif" x="588" y="245">x</text>
+
+  <!-- Y axis -->
+  <line x1="330" y1="470" x2="330" y2="30"
+        stroke="black" stroke-width="1.4"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text font-size="16" font-family="sans-serif" x="326" y="20" text-anchor="middle">y</text>
+
+  <!-- Parabola: vertex below x-axis, narrow U, arms rising steeply -->
+  <path d="M 165,60 C 165,320 330,330 330,320 C 330,330 495,320 495,60"
+        fill="none" stroke="black" stroke-width="1.4"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+
+</svg>

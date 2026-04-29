@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       B = top-center      (195, 22)
+       A = bottom-left     (28,  255)
+       C = bottom-right    (368, 255)
+       E = on base         (195, 255)
+       D = on BC at 40%    (264, 115)
+  -->
+
+  <!-- Main triangle ABC -->
+  <line x1="28"  y1="255" x2="195" y2="22"  stroke="black" stroke-width="1.4"/>
+  <line x1="195" y1="22"  x2="368" y2="255" stroke="black" stroke-width="1.4"/>
+  <line x1="28"  y1="255" x2="368" y2="255" stroke="black" stroke-width="1.4"/>
+
+  <!-- Altitude BE vertical from B down to E -->
+  <line x1="195" y1="22"  x2="195" y2="255" stroke="black" stroke-width="1.4"/>
+
+  <!-- Line A to D — D is ON BC -->
+  <line x1="28"  y1="255" x2="264" y2="115" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box at E -->
+  <polyline points="195,241 209,241 209,255"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- Right angle box at D on BC line
+       BC angle = atan2(255-22, 368-195) = atan2(233,173) = 53.4 deg
+       AD meets BC at D, right angle box aligned to BC -->
+  <g transform="translate(264,115) rotate(53)">
+    <rect x="-11" y="0" width="11" height="11"
+          fill="white" stroke="black" stroke-width="1.2"/>
+  </g>
+
+  <!-- Vertex labels -->
+  <text x="183" y="15"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="10"  y="268" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="372" y="268" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+  <text x="188" y="275" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">E</text>
+  <text x="270" y="112" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">D</text>
+
+</svg>

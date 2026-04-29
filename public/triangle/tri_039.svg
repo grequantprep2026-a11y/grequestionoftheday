@@ -1,0 +1,56 @@
+<svg width="420" height="260" viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- LEFT TRIANGLE
+       Top-left    (45,  18)   x° here
+       Bottom-left (45,  178)  right angle
+       Bottom-right(105, 178)
+  -->
+
+  <!-- Left vertical -->
+  <line x1="45"  y1="18"  x2="45"  y2="178" stroke="black" stroke-width="1.4"/>
+  <!-- Bottom horizontal -->
+  <line x1="45"  y1="178" x2="105" y2="178" stroke="black" stroke-width="1.4"/>
+  <!-- Hypotenuse -->
+  <line x1="45"  y1="18"  x2="105" y2="178" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box bottom-left -->
+  <polyline points="45,164 59,164 59,178"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- x° at top-left -->
+  <text x="44"  y="40"  font-family="sans-serif" font-size="13" fill="black">x°</text>
+
+  <!-- Label 4 on left side -->
+  <text x="25"  y="102" font-family="sans-serif" font-size="14" fill="black">4</text>
+
+  <!-- Label 3 on bottom -->
+  <text x="68"  y="198" font-family="sans-serif" font-size="14" fill="black">3</text>
+
+
+  <!-- RIGHT TRIANGLE
+       Top-left    (210, 18)   x° here
+       Bottom-left (210, 218)  right angle
+       Bottom-right (340, 218)
+  -->
+
+  <!-- Left vertical -->
+  <line x1="210" y1="18"  x2="210" y2="218" stroke="black" stroke-width="1.4"/>
+  <!-- Bottom horizontal -->
+  <line x1="210" y1="218" x2="340" y2="218" stroke="black" stroke-width="1.4"/>
+  <!-- Hypotenuse -->
+  <line x1="210" y1="18"  x2="340" y2="218" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box bottom-left -->
+  <polyline points="210,204 224,204 224,218"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- x° at top-left -->
+  <text x="211" y="42"  font-family="sans-serif" font-size="13" fill="black">x°</text>
+
+  <!-- Label 10 on left side -->
+  <text x="184" y="122" font-family="sans-serif" font-size="14" fill="black">10</text>
+
+  <!-- Label m on hypotenuse -->
+  <text x="292" y="128" font-family="sans-serif" font-size="14" fill="black">m</text>
+
+</svg>

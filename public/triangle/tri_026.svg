@@ -1,0 +1,58 @@
+<svg width="420" height="280" viewBox="0 0 420 280" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <marker id="arrowR" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 2L8 5L2 8" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrowL" viewBox="0 0 10 10" refX="1" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M8 2L2 5L8 8" fill="none" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Vertices:
+       A = left           (58,  188)
+       C = top-right      (355, 30)
+       B = bottom-right   (278, 238)
+       P = foot of perp from B on AC = approx (210, 122)
+  -->
+
+  <!-- AC line with arrows at both ends -->
+  <line x1="58"  y1="188" x2="355" y2="30"
+        stroke="black" stroke-width="1.4"
+        marker-start="url(#arrowL)"
+        marker-end="url(#arrowR)"/>
+
+  <!-- AB -->
+  <line x1="58"  y1="188" x2="278" y2="238" stroke="black" stroke-width="1.4"/>
+
+  <!-- BC -->
+  <line x1="355" y1="30"  x2="278" y2="238" stroke="black" stroke-width="1.4"/>
+
+  <!-- Dashed line B to P -->
+  <line x1="278" y1="238" x2="210" y2="122"
+        stroke="black" stroke-width="1.4" stroke-dasharray="6,4"/>
+
+  <!-- Right angle box at P (210,122) aligned to AC direction
+       AC angle = atan2(30-188, 355-58) = atan2(-158, 297) = -28 deg -->
+  <g transform="translate(210,122) rotate(-28)">
+    <rect x="0" y="-10" width="10" height="10"
+          fill="none" stroke="black" stroke-width="1.2"/>
+  </g>
+
+  <!-- Label "10" on AC line, left portion -->
+  <text x="118" y="142" font-family="sans-serif" font-size="14" fill="black">10</text>
+
+  <!-- Label "√5" on dashed line -->
+  <text x="250" y="192" font-family="sans-serif" font-size="14" fill="black">√5</text>
+
+  <!-- Label "3" on BC -->
+  <text x="328" y="148" font-family="sans-serif" font-size="14" fill="black">3</text>
+
+  <!-- Vertex labels -->
+  <text x="36"  y="196" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="360" y="26"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+  <text x="272" y="258" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+
+</svg>

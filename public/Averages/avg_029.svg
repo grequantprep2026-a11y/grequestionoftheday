@@ -1,0 +1,37 @@
+<svg width="500" height="280" viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px serif; fill: black; text-anchor: middle; }
+    .header-text { font: bold 15px serif; fill: black; text-anchor: middle; }
+    .cell-text { font: 15px serif; fill: black; text-anchor: middle; }
+    .border { stroke: black; stroke-width: 1.5; fill: none; }
+    .grid-line { stroke: black; stroke-width: 1; }
+  </style>
+
+  <text x="250" y="25" class="title">Weekly Revenue per Product Category at Office Supply Store X</text>
+
+  <rect x="20" y="45" width="460" height="210" class="border" />
+
+  <line x1="270" y1="45" x2="270" y2="255" class="grid-line" />
+
+  <line x1="20" y1="80" x2="480" y2="80" class="grid-line" />
+  <line x1="20" y1="115" x2="480" y2="115" class="grid-line" />
+  <line x1="20" y1="150" x2="480" y2="150" class="grid-line" />
+  <line x1="20" y1="185" x2="480" y2="185" class="grid-line" />
+  <line x1="20" y1="220" x2="480" y2="220" class="grid-line" />
+
+  <text x="145" y="68" class="header-text">Product Category</text>
+  <text x="375" y="68" class="header-text">Weekly Revenue</text>
+
+  <text x="145" y="103" class="cell-text">Pens</text>
+  <text x="145" y="138" class="cell-text">Pencils</text>
+  <text x="145" y="173" class="cell-text">Legal pads</text>
+  <text x="145" y="208" class="cell-text">Erasers</text>
+  <text x="145" y="235" class="cell-text">Average (arithmetic mean) of categories</text>
+  <text x="145" y="250" class="cell-text">above</text>
+
+  <text x="375" y="103" class="cell-text">$164</text>
+  <text x="375" y="138" class="cell-text">$111</text>
+  <text x="375" y="173" class="cell-text">$199</text>
+  <text x="375" y="208" class="cell-text">$38</text>
+  <text x="375" y="243" class="cell-text">$128</text>
+</svg>

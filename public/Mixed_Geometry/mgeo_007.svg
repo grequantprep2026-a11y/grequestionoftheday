@@ -1,0 +1,9 @@
+<svg width="100%" viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Square -->
+  <rect x="190" y="60" width="300" height="300" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Circle inscribed inside, touching all 4 sides -->
+  <circle cx="340" cy="210" r="150" fill="none" stroke="black" stroke-width="2"/>
+
+</svg>

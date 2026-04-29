@@ -1,0 +1,33 @@
+<svg width="100%" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Top horizontal line A to C -->
+  <line x1="60" y1="100" x2="620" y2="100" stroke="black" stroke-width="1.8"/>
+
+  <!-- Bottom horizontal line B to D -->
+  <line x1="60" y1="240" x2="620" y2="240" stroke="black" stroke-width="1.8"/>
+
+  <!-- Y to W -->
+  <line x1="160" y1="100" x2="260" y2="240" stroke="black" stroke-width="1.8"/>
+
+  <!-- Y to X (cross) -->
+  <line x1="160" y1="100" x2="500" y2="240" stroke="black" stroke-width="1.8"/>
+
+  <!-- Z to W (cross) -->
+  <line x1="400" y1="100" x2="260" y2="240" stroke="black" stroke-width="1.8"/>
+
+  <!-- Z to X -->
+  <line x1="400" y1="100" x2="500" y2="240" stroke="black" stroke-width="1.8"/>
+
+  <!-- Top labels -->
+  <text x="44" y="96" font-size="14" font-style="italic" font-family="Arial">A</text>
+  <text x="154" y="92" font-size="14" font-style="italic" font-family="Arial">Y</text>
+  <text x="394" y="92" font-size="14" font-style="italic" font-family="Arial">Z</text>
+  <text x="624" y="96" font-size="14" font-style="italic" font-family="Arial">C</text>
+
+  <!-- Bottom labels -->
+  <text x="44" y="258" font-size="14" font-style="italic" font-family="Arial">B</text>
+  <text x="254" y="258" font-size="14" font-style="italic" font-family="Arial">W</text>
+  <text x="498" y="258" font-size="14" font-style="italic" font-family="Arial">X</text>
+  <text x="624" y="258" font-size="14" font-style="italic" font-family="Arial">D</text>
+
+</svg>

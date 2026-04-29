@@ -1,0 +1,33 @@
+<svg width="300" height="360" viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       B = top-left      (75, 28)
+       A = bottom-left   (75, 295)
+       C = bottom-right  (240, 295)
+  -->
+
+  <!-- BA vertical left side -->
+  <line x1="75"  y1="28"  x2="75"  y2="295" stroke="black" stroke-width="1.4"/>
+
+  <!-- AC horizontal bottom -->
+  <line x1="75"  y1="295" x2="240" y2="295" stroke="black" stroke-width="1.4"/>
+
+  <!-- BC hypotenuse -->
+  <line x1="75"  y1="28"  x2="240" y2="295" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box at A -->
+  <polyline points="75,281 89,281 89,295"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- Angle label 30° inside triangle near B -->
+  <text x="82"  y="78"  font-family="sans-serif" font-size="14" fill="black">30°</text>
+
+  <!-- Side label "6" on left vertical BA -->
+  <text x="48"  y="175" font-family="sans-serif" font-size="14" fill="black">6</text>
+
+  <!-- Vertex labels -->
+  <text x="62"  y="22"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="52"  y="315" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="245" y="312" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+
+</svg>

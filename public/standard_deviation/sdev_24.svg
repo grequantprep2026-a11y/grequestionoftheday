@@ -1,0 +1,14 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .curve {
+      fill: none;
+      stroke: black;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <path d="M 20,180 C 60,180 80,20 120,20 C 160,20 180,180 220,180 C 260,180 280,100 320,100 C 360,100 380,180 400,180" class="curve" />
+
+</svg>

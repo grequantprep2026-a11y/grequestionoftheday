@@ -1,0 +1,24 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles for a consistent "test paper" look -->
+  <style>
+    .outline { fill: none; stroke: #222; stroke-width: 2.2; stroke-linejoin: round; }
+    .vertex { font: italic 22px "Times New Roman", serif; fill: black; }
+    .measure { font: 18px "Arial", sans-serif; fill: black; text-anchor: middle; }
+  </style>
+
+  <!-- The Triangle Path -->
+  <path d="M 80,260 L 230,40 L 320,220 Z" class="outline" />
+
+  <!-- Vertex Labels -->
+  <text x="60" y="285" class="vertex">G</text>
+  <text x="225" y="30" class="vertex">H</text>
+  <text x="330" y="240" class="vertex">I</text>
+
+  <!-- Side Lengths -->
+  <text x="140" y="150" class="measure">8</text>
+  <text x="200" y="265" class="measure">6</text>
+
+  <!-- Interior Angles (Positioned relative to vertices) -->
+  <text x="215" y="90" class="measure">37°</text>
+  <text x="285" y="200" class="measure">53°</text>
+</svg>

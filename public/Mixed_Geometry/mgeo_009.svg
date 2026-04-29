@@ -1,0 +1,17 @@
+<svg width="100%" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer square gray -->
+  <rect x="140" y="40" width="350" height="350" 
+        fill="#c8c8c8" stroke="black" stroke-width="2.5"/>
+
+  <!-- Inner perfect rotated square white -->
+  <polygon points="290,40 490,190 340,390 140,240" 
+           fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Label 3 top segment -->
+  <text x="504" y="120" font-size="14" font-family="Arial">3</text>
+
+  <!-- Label 4 bottom segment -->
+  <text x="504" y="300" font-size="14" font-family="Arial">4</text>
+
+</svg>

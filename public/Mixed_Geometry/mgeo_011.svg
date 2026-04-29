@@ -1,0 +1,31 @@
+<svg width="100%" viewBox="0 0 680 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- X axis -->
+  <line x1="100" y1="260" x2="580" y2="260" stroke="black" stroke-width="1.8"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+
+  <!-- Y axis -->
+  <line x1="340" y1="470" x2="340" y2="40" stroke="black" stroke-width="1.8"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+
+  <!-- Transversal at 35° through origin -->
+  <line x1="155" y1="390" x2="525" y2="134" stroke="black" stroke-width="1.8"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+
+  <!-- Labels -->
+  <text x="590" y="264" font-size="14" font-family="Arial" dominant-baseline="middle">x</text>
+  <text x="346" y="32" font-size="14" font-family="Arial">y</text>
+
+  <!-- Angle labels -->
+  <text x="298" y="255" font-size="12" font-style="italic" font-family="Arial">a°</text>
+  <text x="346" y="252" font-size="12" font-style="italic" font-family="Arial">b°</text>
+  <text x="378" y="255" font-size="12" font-family="Arial">35°</text>
+  <text x="320" y="290" font-size="12" font-style="italic" font-family="Arial">d°</text>
+  <text x="346" y="278" font-size="12" font-style="italic" font-family="Arial">c°</text>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .shape { fill: none; stroke: black; stroke-width: 2; stroke-linejoin: round; }
+    .label { font: italic 18px "Times New Roman", serif; fill: black; }
+    .number { font: 16px serif; fill: black; }
+  </style>
+
+  <path d="M 50,150 L 50,30 L 250,150 Z" class="shape" />
+  
+  <rect x="50" y="135" width="15" height="15" class="shape" />
+
+  <text x="30" y="165" class="label">A</text>
+  <text x="30" y="25" class="label">B</text>
+  <text x="260" y="165" class="label">C</text>
+  
+  <text x="150" y="165" class="number">12</text>
+  <text x="155" y="85" class="number">13</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="450" height="200" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       A = bottom-left   (25, 168)
+       B = top-center    (150, 28)
+       C = bottom-right  (355, 168)
+  -->
+
+  <!-- Extended base line: from A past C -->
+  <line x1="25" y1="168" x2="420" y2="168" stroke="black" stroke-width="1.5"/>
+
+  <!-- AB -->
+  <line x1="25"  y1="168" x2="150" y2="28" stroke="black" stroke-width="1.5"/>
+
+  <!-- BC -->
+  <line x1="150" y1="28"  x2="355" y2="168" stroke="black" stroke-width="1.5"/>
+
+  <!-- Dot at A -->
+  <circle cx="25"  cy="168" r="2.5" fill="black"/>
+
+  <!-- Dot at C -->
+  <circle cx="355" cy="168" r="2.5" fill="black"/>
+
+  <!-- Vertex labels -->
+  <text x="8"   y="188" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="145" y="20"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="358" y="188" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+
+  <!-- Angle labels -->
+  <!-- a° at A, inside angle -->
+  <text x="42"  y="160" font-family="sans-serif" font-size="13" fill="black">a°</text>
+
+  <!-- b° just below B, inside triangle -->
+  <text x="153" y="48"  font-family="sans-serif" font-size="13" fill="black">b°</text>
+
+  <!-- d° at C, on the right side of C (exterior, on extended line) -->
+  <text x="362" y="160" font-family="sans-serif" font-size="13" fill="black">d°</text>
+
+</svg>

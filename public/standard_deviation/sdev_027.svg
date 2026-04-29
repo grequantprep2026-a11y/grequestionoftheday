@@ -1,0 +1,15 @@
+<svg width="100%" viewBox="0 0 680 120" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Left whisker -->
+  <line x1="180" y1="60" x2="270" y2="60" stroke="#333" stroke-width="1.5"/>
+  <line x1="180" y1="40" x2="180" y2="80" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Box with centered median -->
+  <rect x="270" y="35" width="140" height="50" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="340" y1="35" x2="340" y2="85" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Right whisker -->
+  <line x1="410" y1="60" x2="500" y2="60" stroke="#333" stroke-width="1.5"/>
+  <line x1="500" y1="40" x2="500" y2="80" stroke="#333" stroke-width="1.5"/>
+
+</svg>

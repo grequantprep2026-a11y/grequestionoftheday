@@ -1,0 +1,53 @@
+<svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .axis { stroke: black; stroke-width: 2; }
+    .box { fill: none; stroke: black; stroke-width: 2.5; }
+    .whisker { stroke: black; stroke-width: 2; }
+    .tick { stroke: black; stroke-width: 1.5; }
+    .label { font: 16px sans-serif; fill: black; text-anchor: middle; }
+  </style>
+
+  <line x1="20" y1="100" x2="480" y2="100" class="axis" />
+
+  <g transform="translate(45, 0)">
+    <line x1="0" y1="92" x2="0" y2="108" class="tick" />
+    <text x="0" y="125" class="label">-4</text>
+    
+    <line x1="45" y1="92" x2="45" y2="108" class="tick" />
+    <text x="45" y="125" class="label">-3</text>
+    
+    <line x1="90" y1="92" x2="90" y2="108" class="tick" />
+    <text x="90" y="125" class="label">-2</text>
+    
+    <line x1="135" y1="92" x2="135" y2="108" class="tick" />
+    <text x="135" y="125" class="label">-1</text>
+    
+    <line x1="180" y1="92" x2="180" y2="108" class="tick" />
+    <text x="180" y="125" class="label">0</text>
+    
+    <line x1="225" y1="92" x2="225" y2="108" class="tick" />
+    <text x="225" y="125" class="label">1</text>
+    
+    <line x1="270" y1="92" x2="270" y2="108" class="tick" />
+    <text x="270" y="125" class="label">2</text>
+    
+    <line x1="315" y1="92" x2="315" y2="108" class="tick" />
+    <text x="315" y="125" class="label">3</text>
+    
+    <line x1="360" y1="92" x2="360" y2="108" class="tick" />
+    <text x="360" y="125" class="label">4</text>
+    
+    <line x1="405" y1="92" x2="405" y2="108" class="tick" />
+    <text x="405" y="125" class="label">5</text>
+  </g>
+
+  <line x1="45" y1="55" x2="90" y2="55" class="whisker" />
+  <line x1="45" y1="35" x2="45" y2="75" class="whisker" />
+
+  <rect x="90" y="25" width="135" height="60" class="box" />
+  
+  <line x1="180" y1="25" x2="180" y2="85" class="box" />
+
+  <line x1="225" y1="55" x2="450" y2="55" class="whisker" />
+  <line x1="450" y1="35" x2="450" y2="75" class="whisker" />
+</svg>

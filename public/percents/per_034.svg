@@ -1,0 +1,31 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px serif; fill: black; text-anchor: middle; }
+    .cell-text { font: 16px serif; fill: black; text-anchor: middle; }
+    .border { stroke: black; stroke-width: 1.5; fill: none; }
+    .grid-line { stroke: black; stroke-width: 1; }
+  </style>
+
+  <text x="200" y="30" class="title">Profit Per Student (in Dollars) at Dan’s Dojo, 2000–2004</text>
+
+  <rect x="20" y="50" width="360" height="175" class="border" />
+
+  <line x1="200" y1="50" x2="200" y2="225" class="grid-line" />
+
+  <line x1="20" y1="85" x2="380" y2="85" class="grid-line" />
+  <line x1="20" y1="120" x2="380" y2="120" class="grid-line" />
+  <line x1="20" y1="155" x2="380" y2="155" class="grid-line" />
+  <line x1="20" y1="190" x2="380" y2="190" class="grid-line" />
+
+  <text x="110" y="73" class="cell-text">2000</text>
+  <text x="110" y="108" class="cell-text">2001</text>
+  <text x="110" y="143" class="cell-text">2002</text>
+  <text x="110" y="178" class="cell-text">2003</text>
+  <text x="110" y="213" class="cell-text">2004</text>
+
+  <text x="290" y="73" class="cell-text">60</text>
+  <text x="290" y="108" class="cell-text">80</text>
+  <text x="290" y="143" class="cell-text">80</text>
+  <text x="290" y="178" class="cell-text">100</text>
+  <text x="290" y="213" class="cell-text">162</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="380" height="310" viewBox="0 0 380 310" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       Top       (190, 18)
+       Left      (28,  272)
+       Right     (355, 272)
+       Mid-base  (218, 272)   — where the cevian meets the base
+  -->
+
+  <!-- Left side: top to bottom-left -->
+  <line x1="190" y1="18"  x2="28"  y2="272" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right side: top to bottom-right -->
+  <line x1="190" y1="18"  x2="355" y2="272" stroke="black" stroke-width="1.4"/>
+
+  <!-- Base: bottom-left to bottom-right -->
+  <line x1="28"  y1="272" x2="355" y2="272" stroke="black" stroke-width="1.4"/>
+
+  <!-- Cevian: top down to mid-base -->
+  <line x1="190" y1="18"  x2="218" y2="272" stroke="black" stroke-width="1.4"/>
+
+  <!-- Angle labels -->
+  <!-- y° just below top, slightly left -->
+  <text x="175" y="60"  font-family="sans-serif" font-size="14" fill="black">y°</text>
+
+  <!-- x° at bottom-left -->
+  <text x="50"  y="262" font-family="sans-serif" font-size="14" fill="black">x°</text>
+
+  <!-- 70° at bottom-right of cevian (inside right sub-triangle) -->
+  <text x="228" y="262" font-family="sans-serif" font-size="14" fill="black">70°</text>
+
+</svg>

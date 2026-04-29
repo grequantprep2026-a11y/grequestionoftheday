@@ -1,0 +1,30 @@
+<svg width="100%" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Circle: center O=(230,175), radius=125 -->
+  <circle cx="230" cy="175" r="125" fill="none" stroke="black" stroke-width="1.8"/>
+
+  <!-- OC vertical radius -->
+  <line x1="230" y1="175" x2="230" y2="300" stroke="black" stroke-width="1.8"/>
+
+  <!-- OAB single straight line through A on circle to B -->
+  <line x1="230" y1="175" x2="570" y2="300" stroke="black" stroke-width="1.8"/>
+
+  <!-- CB horizontal bottom line -->
+  <line x1="230" y1="300" x2="570" y2="300" stroke="black" stroke-width="1.8"/>
+
+  <!-- Dots at O, A, C, B -->
+  <circle cx="230" cy="175" r="4" fill="black"/>
+  <circle cx="347" cy="218" r="4" fill="black"/>
+  <circle cx="230" cy="300" r="4" fill="black"/>
+  <circle cx="570" cy="300" r="4" fill="black"/>
+
+  <!-- Labels -->
+  <text x="214" y="163" font-size="14" font-style="italic" font-family="Arial">O</text>
+  <text x="353" y="213" font-size="14" font-style="italic" font-family="Arial">A</text>
+  <text x="214" y="322" font-size="14" font-style="italic" font-family="Arial">C</text>
+  <text x="576" y="308" font-size="14" font-style="italic" font-family="Arial">B</text>
+
+  <!-- 8 label midpoint of CB -->
+  <text x="400" y="322" font-size="14" font-family="Arial" text-anchor="middle">8</text>
+
+</svg>

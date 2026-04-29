@@ -1,0 +1,19 @@
+<svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .shape { fill: none; stroke: black; stroke-width: 2; stroke-linejoin: round; }
+    .label { font: italic 20px serif; fill: black; }
+    .data { font: 16px serif; fill: black; text-anchor: middle; }
+  </style>
+
+  <path d="M 60,200 L 200,200 L 130,40 Z" class="shape" />
+
+  <text x="40" y="215" class="label">A</text>
+  <text x="210" y="215" class="label">C</text>
+  <text x="122" y="30" class="label">B</text>
+
+  <text x="85" y="125" class="data">4</text>
+  <text x="130" y="220" class="data">3</text>
+
+  <text x="90" y="190" class="data">75°</text>
+  <text x="130" y="75" class="data">30°</text>
+</svg>

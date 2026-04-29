@@ -1,0 +1,29 @@
+<svg width="380" height="280" viewBox="0 0 380 280" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       A = top-center       (190, 20)
+       B = bottom-right     (330, 230)
+       C = bottom-left      (50,  230)
+  -->
+
+  <!-- Triangle sides -->
+  <line x1="190" y1="20"  x2="330" y2="230" stroke="black" stroke-width="1.5"/>
+  <line x1="330" y1="230" x2="50"  y2="230" stroke="black" stroke-width="1.5"/>
+  <line x1="50"  y1="230" x2="190" y2="20"  stroke="black" stroke-width="1.5"/>
+
+  <!-- Vertex labels -->
+  <text x="183" y="14"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="335" y="245" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="32"  y="245" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+
+  <!-- Angle labels -->
+  <!-- x° just below A, inside triangle -->
+  <text x="178" y="44"  font-family="sans-serif" font-size="13" fill="black">x°</text>
+
+  <!-- y° near B, inside triangle -->
+  <text x="292" y="222" font-family="sans-serif" font-size="13" fill="black">y°</text>
+
+  <!-- z° near C, inside triangle -->
+  <text x="72"  y="222" font-family="sans-serif" font-size="13" fill="black">z°</text>
+
+</svg>

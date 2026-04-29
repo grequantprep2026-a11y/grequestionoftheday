@@ -1,0 +1,33 @@
+<svg width="100%" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Left right triangle: A=(80,260) B=(80,60) C=(260,260) -->
+  <polygon points="80,60 80,260 260,260" fill="none" stroke="black" stroke-width="1.8"/>
+
+  <!-- Right angle box at A -->
+  <polyline points="80,245 95,245 95,260" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- Baseline joining the two triangles -->
+  <line x1="260" y1="260" x2="350" y2="260" stroke="black" stroke-width="1.8"/>
+
+  <!-- Right triangle: D=(350,260) E=(590,260) F=(450,55) -->
+  <polygon points="350,260 590,260 450,55" fill="none" stroke="black" stroke-width="1.8"/>
+
+  <!-- x° at top-left -->
+  <text x="86" y="88" font-size="12" font-style="italic" font-family="Arial">x°</text>
+
+  <!-- y° bottom-right of left triangle -->
+  <text x="232" y="253" font-size="12" font-style="italic" font-family="Arial">y°</text>
+
+  <!-- a° on joining line -->
+  <text x="270" y="253" font-size="12" font-style="italic" font-family="Arial">a°</text>
+
+  <!-- b° left of right triangle -->
+  <text x="316" y="253" font-size="12" font-style="italic" font-family="Arial">b°</text>
+
+  <!-- (x+10)° near top of right triangle -->
+  <text x="434" y="100" font-size="12" font-style="italic" font-family="Arial">(x + 10)°</text>
+
+  <!-- (y+5)° bottom-right of right triangle -->
+  <text x="505" y="253" font-size="12" font-style="italic" font-family="Arial">(y + 5)°</text>
+
+</svg>

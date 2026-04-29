@@ -1,0 +1,16 @@
+<svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { fill: none; stroke: black; stroke-width: 2; stroke-linejoin: round; }
+    .label { font: italic 20px serif; fill: black; }
+    .angle-label { font: 16px serif; fill: black; }
+  </style>
+
+  <path d="M 50,200 L 250,200 L 150,40 Z" class="line" />
+
+  <path d="M 90,200 A 40,40 0 0 0 78,160" class="line" /> <path d="M 135,65 A 25,25 0 0 0 165,65" class="line" /> <text x="35" y="225" class="label">A</text>
+  <text x="255" y="225" class="label">C</text>
+  <text x="142" y="30" class="label">B</text>
+  
+  <text x="95" y="190" class="angle-label">50°</text>
+  <text x="142" y="85" class="angle-label">x°</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="300" height="340" viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       A = top-left      (80,  25)
+       C = bottom-left   (80,  285)
+       B = bottom-right  (245, 285)
+  -->
+
+  <!-- AC vertical left side -->
+  <line x1="80"  y1="25"  x2="80"  y2="285" stroke="black" stroke-width="1.4"/>
+
+  <!-- CB horizontal bottom -->
+  <line x1="80"  y1="285" x2="245" y2="285" stroke="black" stroke-width="1.4"/>
+
+  <!-- AB hypotenuse -->
+  <line x1="80"  y1="25"  x2="245" y2="285" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box at C -->
+  <polyline points="80,271 94,271 94,285"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- Vertex labels -->
+  <text x="62"  y="20"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="55"  y="305" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+  <text x="248" y="303" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+
+</svg>

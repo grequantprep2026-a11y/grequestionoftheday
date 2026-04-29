@@ -1,0 +1,14 @@
+<svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { fill: none; stroke: black; stroke-width: 2.2; stroke-linejoin: round; }
+    .label { font: 20px "Times New Roman", serif; fill: black; text-anchor: middle; }
+  </style>
+
+  <g transform="translate(40, 20)">
+    <polygon points="120,0 240,200 0,200" class="line" />
+    <text x="120" y="45" class="label">a°</text> <text x="40" y="185" class="label">a°</text> <text x="200" y="185" class="label">a°</text> </g>
+
+  <g transform="translate(340, 40)">
+    <rect x="0" y="0" width="240" height="160" class="line" />
+    <text x="25" y="30" class="label">b°</text> <text x="215" y="30" class="label">b°</text> <text x="25" y="145" class="label">b°</text> <text x="215" y="145" class="label">b°</text> </g>
+</svg>

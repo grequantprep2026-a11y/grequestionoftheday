@@ -1,0 +1,37 @@
+<svg width="420" height="230" viewBox="0 0 420 230" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       B = top-center     (205, 18)
+       A = bottom-left    (25,  195)
+       C = bottom-right   (385, 195)
+  -->
+
+  <!-- AB left side -->
+  <line x1="25"  y1="195" x2="205" y2="18"  stroke="black" stroke-width="1.4"/>
+
+  <!-- BC right side -->
+  <line x1="205" y1="18"  x2="385" y2="195" stroke="black" stroke-width="1.4"/>
+
+  <!-- AC base -->
+  <line x1="25"  y1="195" x2="385" y2="195" stroke="black" stroke-width="1.4"/>
+
+  <!-- Side labels -->
+  <!-- 2x-5 on left side AB -->
+  <text x="60"  y="115" font-family="sans-serif" font-size="14" fill="black">2x &#8722; 5</text>
+
+  <!-- x+4 on right side BC -->
+  <text x="300" y="105" font-family="sans-serif" font-size="14" fill="black">x + 4</text>
+
+  <!-- Angle labels -->
+  <!-- y° at A -->
+  <text x="48"  y="185" font-family="sans-serif" font-size="13" fill="black">y°</text>
+
+  <!-- y° at C -->
+  <text x="340" y="185" font-family="sans-serif" font-size="13" fill="black">y°</text>
+
+  <!-- Vertex labels -->
+  <text x="196" y="12"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="8"   y="212" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="388" y="212" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .outline { stroke: black; stroke-width: 1.5; fill: none; }
+    .shaded { fill: #c0c0c0; stroke: black; stroke-width: 1.5; }
+    .label { font: 12px serif; fill: black; }
+  </style>
+
+  <circle cx="50" cy="50" r="40" class="outline" />
+
+  <path d="M 50,50 L 90,50 A 40,40 0 0,0 84.6,30 Z" class="shaded" />
+
+  <circle cx="50" cy="50" r="1.5" fill="black" />
+  <text x="40" y="55" class="label">O</text>
+
+  <circle cx="84.6" cy="30" r="1.5" fill="black" />
+
+  <text x="65" y="45" font-size="10px">x<tspan font-size="7px" baseline-shift="super">°</tspan></text>
+</svg>

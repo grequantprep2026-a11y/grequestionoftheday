@@ -1,0 +1,38 @@
+<svg width="430" height="230" viewBox="0 0 430 230" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       A = bottom-left    (25,  200)
+       B = bottom-center  (195, 200)
+       C = bottom-right   (390, 200)
+       D = top-right      (280, 32)
+  -->
+
+  <!-- Base line A to C -->
+  <line x1="25"  y1="200" x2="390" y2="200" stroke="black" stroke-width="1.4"/>
+
+  <!-- AD -->
+  <line x1="25"  y1="200" x2="280" y2="32"  stroke="black" stroke-width="1.4"/>
+
+  <!-- BD -->
+  <line x1="195" y1="200" x2="280" y2="32"  stroke="black" stroke-width="1.4"/>
+
+  <!-- DC -->
+  <line x1="280" y1="32"  x2="390" y2="200" stroke="black" stroke-width="1.4"/>
+
+  <!-- Vertex labels -->
+  <text x="8"   y="216" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">A</text>
+  <text x="188" y="216" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">B</text>
+  <text x="393" y="216" font-family="sans-serif" font-size="14" font-weight="bold" fill="black">C</text>
+  <text x="282" y="24"  font-family="sans-serif" font-size="14" font-weight="bold" fill="black">D</text>
+
+  <!-- Angle labels -->
+  <!-- x° at A -->
+  <text x="49"  y="196" font-family="sans-serif" font-size="13" fill="black">x°</text>
+
+  <!-- y° at D inside, below D -->
+  <text x="246" y="65"  font-family="sans-serif" font-size="13" fill="black">y°</text>
+
+  <!-- 65° at C inside -->
+  <text x="338" y="192" font-family="sans-serif" font-size="13" fill="black">65°</text>
+
+</svg>

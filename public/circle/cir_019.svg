@@ -1,0 +1,16 @@
+<svg width="300" height="300" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .shape { fill: none; stroke: black; stroke-width: 1.5; stroke-linecap: round; }
+    .label { font: italic 12px "Times New Roman", serif; fill: black; }
+    .dot { fill: black; }
+  </style>
+
+  <circle cx="50" cy="50" r="40" class="shape" />
+
+  <path d="M 84.6,30 L 10,50 L 84.6,70" class="shape" />
+
+  <circle cx="84.6" cy="30" r="1.5" class="dot" /> <circle cx="10" cy="50" r="1.5" class="dot" />   <circle cx="84.6" cy="70" r="1.5" class="dot" /> <text x="88" y="28" class="label">A</text>
+  <text x="2" y="52" class="label">B</text>
+  <text x="88" y="75" class="label">C</text>
+  <text x="22" y="52" font-size="9px" font-family="serif">40°</text>
+</svg>

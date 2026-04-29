@@ -1,0 +1,48 @@
+<svg width="520" height="220" viewBox="0 0 520 220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ===== Town X (Wide Curve) ===== -->
+  <g transform="translate(10,10)">
+    
+    <!-- Box -->
+    <rect x="0" y="0" width="240" height="180" fill="none" stroke="#bbb" stroke-width="1.5"/>
+
+    <!-- Smooth wide bell curve -->
+    <path d="
+      M 10 160
+      C 40 140, 60 80, 90 50
+      C 120 20, 150 20, 180 50
+      C 210 80, 220 140, 230 160
+    "
+    fill="none"
+    stroke="black"
+    stroke-width="3"
+    stroke-linecap="round"/>
+
+    <!-- Label -->
+    <text x="10" y="20" font-size="14" font-family="Arial">Town X</text>
+  </g>
+
+
+  <!-- ===== Town Y (Narrow Curve) ===== -->
+  <g transform="translate(270,10)">
+    
+    <!-- Box -->
+    <rect x="0" y="0" width="240" height="180" fill="none" stroke="#bbb" stroke-width="1.5"/>
+
+    <!-- Tall narrow bell curve -->
+    <path d="
+      M 10 160
+      C 80 140, 100 60, 115 30
+      C 120 15, 125 15, 130 30
+      C 145 60, 160 140, 230 160
+    "
+    fill="none"
+    stroke="black"
+    stroke-width="3"
+    stroke-linecap="round"/>
+
+    <!-- Label -->
+    <text x="10" y="20" font-size="14" font-family="Arial">Town Y</text>
+  </g>
+
+</svg>

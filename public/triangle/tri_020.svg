@@ -1,0 +1,28 @@
+<svg width="380" height="300" viewBox="0 0 380 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vertices:
+       Top-left     (55,  25)
+       Bottom-left  (55,  235)
+       Bottom-right (335, 235)
+  -->
+
+  <!-- Triangle sides -->
+  <line x1="55"  y1="25"  x2="55"  y2="235" stroke="black" stroke-width="1.5"/>
+  <line x1="55"  y1="235" x2="335" y2="235" stroke="black" stroke-width="1.5"/>
+  <line x1="335" y1="235" x2="55"  y2="25"  stroke="black" stroke-width="1.5"/>
+
+  
+
+  <!-- Side label "6" on left vertical -->
+  <text x="30" y="135" font-family="sans-serif" font-size="15" fill="black">6</text>
+
+  <!-- Side label "8" on bottom horizontal -->
+  <text x="183" y="260" font-family="sans-serif" font-size="15" fill="black">8</text>
+
+  <!-- Hypotenuse label "10.5" -->
+  <text x="210" y="118" font-family="sans-serif" font-size="15" fill="black">10.5</text>
+
+  <!-- Angle label x° at bottom-left inside triangle -->
+  <text x="63" y="222" font-family="sans-serif" font-size="13" fill="black">x°</text>
+
+</svg>

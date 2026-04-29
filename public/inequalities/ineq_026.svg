@@ -1,0 +1,57 @@
+<svg width="400" height="320" viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font: bold 16px sans-serif; fill: black; }
+    .zero { font: 12px sans-serif; fill: black; text-anchor: middle; }
+    .line { stroke: black; stroke-width: 2; marker-end: url(#arrowhead); marker-start: url(#arrowhead-rev); }
+    .highlight { stroke: #888; stroke-width: 6; stroke-linecap: round; }
+    .point { fill: #888; }
+    .tick { stroke: black; stroke-width: 2; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+    <marker id="arrowhead-rev" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" />
+    </marker>
+  </defs>
+
+  <text x="20" y="45" class="label">(A)</text>
+  <line x1="80" y1="40" x2="320" y2="40" class="line" />
+  <line x1="80" y1="40" x2="200" y2="40" class="highlight" />
+  <circle cx="200" cy="40" r="5" class="point" />
+  <line x1="170" y1="33" x2="170" y2="47" class="tick" />
+  <text x="170" y="60" class="zero">0</text>
+
+  <text x="20" y="95" class="label">(B)</text>
+  <line x1="80" y1="90" x2="320" y2="90" class="line" />
+  <line x1="200" y1="90" x2="320" y2="90" class="highlight" />
+  <circle cx="200" cy="90" r="5" class="point" />
+  <line x1="170" y1="83" x2="170" y2="97" class="tick" />
+  <text x="170" y="110" class="zero">0</text>
+
+  <text x="20" y="145" class="label">(C)</text>
+  <line x1="80" y1="140" x2="320" y2="140" class="line" />
+  <line x1="140" y1="140" x2="320" y2="140" class="highlight" />
+  <circle cx="140" cy="140" r="5" class="point" />
+  <line x1="170" y1="133" x2="170" y2="147" class="tick" />
+  <text x="170" y="160" class="zero">0</text>
+
+  <text x="20" y="195" class="label">(D)</text>
+  <line x1="80" y1="190" x2="320" y2="190" class="line" />
+  <line x1="80" y1="190" x2="140" y2="190" class="highlight" />
+  <line x1="200" y1="190" x2="320" y2="190" class="highlight" />
+  <circle cx="140" cy="190" r="5" class="point" />
+  <circle cx="200" cy="190" r="5" class="point" />
+  <line x1="170" y1="183" x2="170" y2="197" class="tick" />
+  <text x="170" y="210" class="zero">0</text>
+
+  <text x="20" y="245" class="label">(E)</text>
+  <line x1="80" y1="240" x2="320" y2="240" class="line" />
+  <line x1="140" y1="240" x2="200" y2="240" class="highlight" />
+  <circle cx="140" cy="240" r="5" class="point" />
+  <circle cx="200" cy="240" r="5" class="point" />
+  <line x1="170" y1="233" x2="170" y2="247" class="tick" />
+  <text x="170" y="260" class="zero">0</text>
+</svg>

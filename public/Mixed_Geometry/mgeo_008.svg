@@ -1,0 +1,15 @@
+<svg width="100%" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Square -->
+  <rect x="190" y="60" width="260" height="260" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Diagonal top-right to bottom-left -->
+  <line x1="450" y1="60" x2="190" y2="320" stroke="black" stroke-width="1.8"/>
+
+  <!-- Top label 10 -->
+  <text x="320" y="48" font-size="14" font-family="Arial" text-anchor="middle">10</text>
+
+  <!-- Diagonal label 10 -->
+  <text x="332" y="202" font-size="14" font-family="Arial" text-anchor="middle">10</text>
+
+</svg>

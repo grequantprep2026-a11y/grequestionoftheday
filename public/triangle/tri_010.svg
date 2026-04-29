@@ -1,0 +1,19 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Triangle vertices:
+       x° = top, slightly left of center  (120, 25)
+       y° = bottom-left                   (20, 210)
+       z° = bottom-right                  (360, 195)
+  -->
+
+  <!-- Triangle sides -->
+  <line x1="120" y1="25"  x2="20"  y2="210" stroke="black" stroke-width="1.5"/>
+  <line x1="20"  y1="210" x2="360" y2="195" stroke="black" stroke-width="1.5"/>
+  <line x1="360" y1="195" x2="120" y2="25"  stroke="black" stroke-width="1.5"/>
+
+  <!-- Vertex labels -->
+  <text x="125" y="40"  font-family="sans-serif" font-size="15" fill="black">x°</text>
+  <text x="5"   y="225" font-family="sans-serif" font-size="15" fill="black">y°</text>
+  <text x="348" y="218" font-family="sans-serif" font-size="15" fill="black">z°</text>
+
+</svg>

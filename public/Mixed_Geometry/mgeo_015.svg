@@ -1,0 +1,19 @@
+<svg width="100%" viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Circle -->
+  <circle cx="340" cy="250" r="180" fill="none" stroke="black" stroke-width="1.8"/>
+
+  <!-- Horizontal diameter -->
+  <line x1="160" y1="250" x2="520" y2="250" stroke="black" stroke-width="1.8"/>
+
+  <!-- Left triangle line up to diamond -->
+  <line x1="160" y1="250" x2="330" y2="80" stroke="black" stroke-width="1.8"/>
+
+  <!-- Right triangle line up to diamond -->
+  <line x1="520" y1="250" x2="350" y2="80" stroke="black" stroke-width="1.8"/>
+
+  <!-- Diamond: top=(340,70) right=(350,80) bottom=(340,90) left=(330,80) -->
+  <polygon points="340,70 350,80 340,90 330,80"
+           fill="none" stroke="black" stroke-width="1.5"/>
+
+</svg>

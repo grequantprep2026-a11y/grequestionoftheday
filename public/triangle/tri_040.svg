@@ -1,0 +1,57 @@
+<svg width="420" height="240" viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Points:
+       TL  = top-left        (45,  22)
+       BL  = bottom-left     (45,  178)
+       MID = bottom-middle   (218, 178)   right angle box here (peak of V)
+       TR  = top-right       (355, 22)
+       BR  = bottom-right    (355, 178)
+  -->
+
+  <!-- Left vertical: TL to BL -->
+  <line x1="45"  y1="22"  x2="45"  y2="178" stroke="black" stroke-width="1.4"/>
+
+  <!-- Left diagonal: TL to MID -->
+  <line x1="45"  y1="22"  x2="218" y2="178" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right diagonal: TR to MID -->
+  <line x1="355" y1="22"  x2="218" y2="178" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right vertical: TR to BR -->
+  <line x1="355" y1="22"  x2="355" y2="178" stroke="black" stroke-width="1.4"/>
+
+  <!-- Base line: BL to BR -->
+  <line x1="45"  y1="178" x2="355" y2="178" stroke="black" stroke-width="1.4"/>
+
+  <!-- Right angle box at BL (bottom-left) -->
+  <polyline points="45,164 59,164 59,178"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- Right angle box at BR (bottom-right) -->
+  <polyline points="355,164 341,164 341,178"
+            fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- Right angle box at MID (bottom of V) -->
+  <g transform="translate(230,178) rotate(-38)">
+    <rect x="-11" y="-11" width="11" height="11"
+          fill="white" stroke="black" stroke-width="1.2"/>
+  </g>
+
+  <!-- Dimension line with arrows below base -->
+  <line x1="45"  y1="200" x2="355" y2="200" stroke="black" stroke-width="1.2"/>
+  <line x1="45"  y1="194" x2="45"  y2="206" stroke="black" stroke-width="1.2"/>
+  <line x1="355" y1="194" x2="355" y2="206" stroke="black" stroke-width="1.2"/>
+
+  <!-- Label 12.2 on dimension line -->
+  <text x="185" y="218" font-family="sans-serif" font-size="14" fill="black">12.2</text>
+
+  <!-- Label 12 on left vertical -->
+  <text x="20"  y="105" font-family="sans-serif" font-size="14" fill="black">12</text>
+
+  <!-- Label 13 on left diagonal -->
+  <text x="110" y="70"  font-family="sans-serif" font-size="14" fill="black">13</text>
+
+  <!-- Label k on right diagonal -->
+  <text x="300" y="100"  font-family="sans-serif" font-size="14" fill="black">k</text>
+
+</svg>

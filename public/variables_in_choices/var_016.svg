@@ -1,0 +1,18 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .shape { fill: none; stroke: black; stroke-width: 2; stroke-linejoin: round; }
+    .label { font: italic 18px serif; fill: black; }
+    .degree { font-size: 12px; baseline-shift: super; }
+  </style>
+
+  <path d="M 50,30 L 180,30 L 280,100 L 240,210 L 70,180 Z" class="shape" />
+  
+  <line x1="240" y1="210" x2="380" y2="210" stroke="black" stroke-width="2" />
+
+  <text x="55" y="55" class="label">c<tspan class="degree">°</tspan></text>
+  <text x="165" y="55" class="label">d<tspan class="degree">°</tspan></text>
+  <text x="245" y="115" class="label">e<tspan class="degree">°</tspan></text>
+  <text x="260" y="200" class="label">x<tspan class="degree">°</tspan></text>
+  <text x="145" y="200" class="label">a<tspan class="degree">°</tspan></text>
+  <text x="75" y="170" class="label">b<tspan class="degree">°</tspan></text>
+</svg>

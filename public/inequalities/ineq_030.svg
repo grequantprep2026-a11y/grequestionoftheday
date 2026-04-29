@@ -1,0 +1,43 @@
+<svg width="500" height="120" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main line -->
+<line x1="40" y1="60" x2="460" y2="60" stroke="black" stroke-width="2"/>
+
+<!-- Arrows -->
+<polygon points="40,60 50,55 50,65" fill="black"/>
+<polygon points="460,60 450,55 450,65" fill="black"/>
+
+<!-- Ticks -->
+<g stroke="black" stroke-width="2">
+  <line x1="80" y1="50" x2="80" y2="70"/>
+  <line x1="120" y1="50" x2="120" y2="70"/>
+  <line x1="160" y1="50" x2="160" y2="70"/>
+  <line x1="200" y1="50" x2="200" y2="70"/>
+  <line x1="240" y1="50" x2="240" y2="70"/>
+  <line x1="280" y1="50" x2="280" y2="70"/>
+  <line x1="320" y1="50" x2="320" y2="70"/>
+  <line x1="360" y1="50" x2="360" y2="70"/>
+  <line x1="400" y1="50" x2="400" y2="70"/>
+</g>
+
+<!-- Labels -->
+<g font-size="12" text-anchor="middle">
+  <text x="80" y="90">-5</text>
+  <text x="120" y="90">-4</text>
+  <text x="160" y="90">-3</text>
+  <text x="200" y="90">-2</text>
+  <text x="240" y="90">-1</text>
+  <text x="280" y="90">0</text>
+  <text x="320" y="90">1</text>
+  <text x="360" y="90">2</text>
+  <text x="400" y="90">3</text>
+</g>
+
+<!-- Open circles (endpoints) -->
+<circle cx="160" cy="60" r="6" fill="white" stroke="black" stroke-width="2"/>
+<circle cx="320" cy="60" r="6" fill="white" stroke="black" stroke-width="2"/>
+
+<!-- Dashed interval between them -->
+<line x1="166" y1="60" x2="314" y2="60" stroke="black" stroke-width="2" stroke-dasharray="6,4"/>
+
+</svg>
