@@ -17,7 +17,7 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://grequestionoftheday.vercal.app"),
+  metadataBase: new URL("https://grequestionoftheday.vercel.app"),
   icons: {
   icon: "/icon.svg",
 },
