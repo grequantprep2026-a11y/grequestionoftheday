@@ -3,7 +3,8 @@ export type QuestionType =
   | "quantitative_comparison"
   | "numeric_entry"
   | "multiple_choice"
-  | "select_all";
+  | "select_all"
+  | string;
 
 export interface Question {
   id: string;
@@ -14,17 +15,23 @@ export interface Question {
   quantity_a?: string;
   quantity_b?: string;
   options?: Record<string, string> | string[];
-  answer: string | string[];
+  answer: string | string[] | number;
   explanation: string;
   image?: string;
 }
 
 export interface TopicBank {
   topic: string;
-  source: string;
+  source?: string;
   chapter: number;
-  total_questions: number;
+  total_questions?: number;
   questions: Question[];
+  quantitative_comparison_instructions?: {
+    A: string;
+    B: string;
+    C: string;
+    D: string;
+  };
 }
 
 import { Algebra } from "./questions/Algebra";
@@ -120,7 +127,8 @@ export function getDailyQuestion() {
     question,
     topic: topicBank.topic,
     topicChapter: topicBank.chapter,
-    totalQuestionsInTopic: topicBank.total_questions,
+    totalQuestionsInTopic: topicBank.total_questions ?? topicBank.questions.length,
+    questionNumber: question.number,
   };
 }
 
@@ -128,6 +136,6 @@ export function getDailyQuestion() {
 export function getAllTopicQuestions() {
   return ALL_BANKS.map((b) => ({
     topic: b.topic,
-    count: b.total_questions,
+    count: b.total_questions ?? b.questions.length,
   }));
 }

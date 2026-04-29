@@ -1,18 +1,15 @@
 export const Algebra = {
+  "topic": "Algebra",
   "source": "Manhattan Prep – 5 lb. Book of GRE Practice Problems",
-  "chapters": [
-    {
-      "chapter": 8,
-      "topic": "Algebra",
-      "quantitative_comparison_instructions": {
-        "A": "Quantity A is greater.",
-        "B": "Quantity B is greater.",
-        "C": "The two quantities are equal.",
-        "D": "The relationship cannot be determined from the information given."
-      },
-    }
-  ],
-   "questions": [
+  "chapter": 8,
+  "total_questions": 5,
+  "quantitative_comparison_instructions": {
+    "A": "Quantity A is greater.",
+    "B": "Quantity B is greater.",
+    "C": "The two quantities are equal.",
+    "D": "The relationship cannot be determined from the information given."
+  },
+  "questions": [
         {
           "id": "alg_001",
           "number": 1,
