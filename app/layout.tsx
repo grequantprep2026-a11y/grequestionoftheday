@@ -37,6 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="fsuB0os2zhe1ez8vT85opTjmU4nqLdUZA4BLA1qBeTI" />
       <body
         className={`${sora.variable} ${sourceSerif.variable} font-sans antialiased`}
       >
